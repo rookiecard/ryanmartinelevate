@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#11161B">
+<meta name="robots" content="noindex, follow">
+<title>Page Not Found | Elevate by Ryan Martin</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2311161B'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-size='36' fill='%23C2D4DE'%3EE%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#11161B;--gold:#AFC2CC;--gold-soft:#C2D4DE;--gold-dim:rgba(175,194,204,0.13);--gold-line:rgba(175,194,204,0.30);--glow-soft:194,212,222;--glow-core:175,194,204;--logo-glow-rest:0 0 13px rgba(var(--glow-soft),0.82),0 0 34px rgba(var(--glow-core),0.48),0 0 68px rgba(var(--glow-core),0.26),0 0 108px rgba(var(--glow-core),0.13);--white:#E8ECF0;--body:#BEC4C8;--muted:#B4BDC8;--serif:'Cormorant Garamond',Georgia,serif;--sans:'Inter','Helvetica Neue',sans-serif;--px:clamp(1.25rem,5vw,4rem);--ease:cubic-bezier(.22,.61,.36,1)}
+body{background:var(--ink);color:var(--body);font-family:var(--sans);font-weight:300;line-height:1.75;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem var(--px);overflow-x:hidden;text-wrap:pretty;position:relative}
+body::after{content:'';position:fixed;inset:0;z-index:1;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");background-size:140px 140px;opacity:0.045;mix-blend-mode:soft-light}
+.wrap{position:relative;z-index:2;max-width:520px}
+.eyebrow{font-size:10px;font-weight:600;letter-spacing:0.5em;text-transform:uppercase;color:var(--gold);margin-bottom:1.8rem;display:flex;align-items:center;justify-content:center;gap:1rem}
+.eyebrow::before,.eyebrow::after{content:'';width:28px;height:1px;background:var(--gold-line)}
+.code{font-family:var(--serif);font-size:clamp(4rem,18vw,8rem);font-weight:500;line-height:1;color:var(--gold-soft);margin-bottom:0.5rem;text-shadow:var(--logo-glow-rest)}
+h1{font-family:var(--serif);font-size:clamp(1.5rem,4vw,2.2rem);font-weight:500;color:var(--white);line-height:1.2;margin-bottom:1.2rem;text-wrap:balance}
+p{font-size:14px;color:var(--muted);line-height:1.9;margin-bottom:2.5rem;max-width:400px;margin-left:auto;margin-right:auto;text-wrap:pretty}
+.btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--gold-line);color:var(--gold-soft);font-size:11px;font-weight:600;letter-spacing:0.35em;text-transform:uppercase;padding:1rem 3rem;min-height:52px;text-decoration:none;transition:background 500ms var(--ease),border-color 500ms var(--ease),letter-spacing 500ms var(--ease)}
+@media (hover:hover){.btn:hover{background:var(--gold-dim);border-color:var(--gold);letter-spacing:0.38em}}
+.logo{font-family:var(--serif);font-size:1.3rem;letter-spacing:0.44em;text-transform:uppercase;color:var(--gold-soft);text-decoration:none;text-shadow:var(--logo-glow-rest);position:fixed;top:1.6rem;left:var(--px);z-index:3}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:0.01ms !important}body::after{opacity:0.03}}
+</style>
+</head>
+<body>
+<a href="index.html" class="logo" aria-label="Elevate home">Elevate</a>
+<div class="wrap">
+<p class="eyebrow">Error 404</p>
+<div class="code">404</div>
+<h1>This page could not be found.</h1>
+<p>The page you are looking for may have been moved, renamed, or is no longer available. Let us guide you back.</p>
+<a href="index.html" class="btn">Return Home</a>
+</div>
+</body>
+</html>
